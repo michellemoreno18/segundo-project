@@ -17,6 +17,63 @@ body{
     line-height: 600px;
     text-shadow: 0px 0px 10px #ccc;
 }
+
+#header-contact{
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('./img/contact-hero.jpg');
+    -webkit-background-size: cover;
+    -moz-background-size:  cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-size: cover;
+    height: 600px;
+    color: #E7D7C5;
+    text-align: center;
+    font-size: 30px;
+    line-height: 600px;
+    text-shadow: 0px 0px 10px #ccc;
+}
+#header-study{
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('./img/conference.jpg');
+    -webkit-background-size: cover;
+    -moz-background-size:  cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-size: cover;
+    height: 600px;
+    color: #E7D7C5;
+    text-align: center;
+    font-size: 30px;
+    line-height: 600px;
+    text-shadow: 0px 0px 10px #ccc;
+}
+#header-shop{
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('./img/shop.jpg');
+    -webkit-background-size: cover;
+    -moz-background-size:  cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-size: cover;
+    height: 600px;
+    color: #E7D7C5;
+    text-align: center;
+    font-size: 30px;
+    line-height: 600px;
+    text-shadow: 0px 0px 10px #ccc;
+}
+#header-events{
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('./img/events.jpg');
+    -webkit-background-size: cover;
+    -moz-background-size:  cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-size: cover;
+    height: 600px;
+    color: #E7D7C5;
+    text-align: center;
+    font-size: 30px;
+    line-height: 600px;
+    text-shadow: 0px 0px 10px #ccc;
+}
 h1{
     font-family: 'Oswald', sans-serif;
 }
@@ -86,6 +143,15 @@ h2{
     padding: 10px;
     height: 500px; 
   }
+  .column-shop {
+    float: left;
+    width: 32%;
+    padding: 10px;
+    height: 330px; 
+  }
+  .column-shop img{
+    width: 235px;
+  }
   #column1{
     font-family: 'Oswald', sans-serif;
     font-weight: 300;
@@ -105,10 +171,22 @@ h2{
     margin-left: 10px;
     height: 500px;
   }
+  .column2-shop {
+    float: left;
+    width: 32%;
+    padding: 10px;
+    margin-left: 10px;
+    height: 330px;
+  }
   .column2 img{
       width: 235px;
   }
+  .column2-shop img{
+    width: 235px;
+}
+  
 
+  /* COLUMN3  */
   .column3 {
     float: left;
     width: 33%;
@@ -122,6 +200,7 @@ h2{
     -o-background-size: cover;
     background-size: cover;
 }
+
 #hours{
     color: #fff;
     font-size: 20px;
@@ -174,4 +253,49 @@ h3{
   .fa-google {
     background:#666;
     color: white;
+  }
+
+  .row{
+      margin-bottom: 40px;
+  }
+
+  /* CONTACT FORM  */
+  input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  input[type=submit] {
+    width: 100%;
+    background-color: Sienna;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #C5906D;
+  }
+  
+  .contact-us {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #contact-title{
+      text-align: center;
   }

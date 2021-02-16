@@ -147,7 +147,7 @@ h2{
     float: left;
     width: 32%;
     padding: 10px;
-    height: 330px; 
+    height: 390px; 
   }
   .column-shop img{
     width: 235px;
@@ -176,7 +176,7 @@ h2{
     width: 32%;
     padding: 10px;
     margin-left: 10px;
-    height: 330px;
+    height: 390px;
   }
   .column2 img{
       width: 235px;
@@ -297,5 +297,58 @@ h3{
   }
 
   #contact-title{
+      text-align: center;
+  }
+
+  /* STUDY SPACES  */
+  .study-room{
+      margin-right: auto;
+      margin-left: auto;
+      width: 900px;
+  }
+  .column-study-spaces1 {
+    float: left;
+    width: 45%;
+    padding: 10px;
+    margin-right: 20px;
+    height: 500px; /* Should be removed. Only for demonstration */
+  }
+  .column-study-spaces2 {
+    float: right;
+    width: 45%;
+    padding: 10px;
+    height: 500px; /* Should be removed. Only for demonstration */
+  }
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  #study-spaces-title{
+      text-align: center;
+  }
+  .column-study-spaces1 img{
+      width: 385px;
+  }
+  .column-study-spaces2 img{
+    width: 385px;
+}
+.button {
+    background-color: #ddd;
+    border: none;
+    color: black;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 16px;
+  }
+  
+  .button:hover {
+    background-color: #f1f1f1;
+  }
+  #events-title{
       text-align: center;
   }

@@ -1,7 +1,68 @@
 body{
-    margin: 0px
+    margin: 0px;
 }
 
 #header{
-    background-image: url ()
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('./img/hero.jpg');
+    -webkit-background-size: cover;
+    -moz-background-size:  cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-size: cover;
+    height: 600px;
+    color: #E7D7C5;
+    text-align: center;
+    font-size: 30px;
+    line-height: 600px;
+    text-shadow: 0px 0px 10px #ccc;
+}
+h1{
+    font-family: 'Oswald', sans-serif;
+}
+
+#navbar{
+    width: 800px;
+    box-shadow: 0px 5px 7px #E7D7C5;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+
+#navbar a{
+    text-decoration: #6B705C;
+    background-color: #C5906D;
+    display: block;
+    width: 159px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    border-bottom: 2px solid sienna;
+    color: #2A2D25;
+    float: left;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 200;
+}
+
+#navbar a:hover{
+    border-bottom: 4px solid #6B705C;
+    font-weight: 400;
+}
+
+.main{
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+    text-justify: inter-word;
+    padding-top: 30px;
+
+}
+h2{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+}
+#first-paragraph{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
 }

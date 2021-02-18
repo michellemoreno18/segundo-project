@@ -352,3 +352,16 @@ h3{
   #events-title{
       text-align: center;
   }
+
+  /* Events and Videos */
+  .videos{
+    width: 600px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .map{
+    width: 600px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-bottom: 30px;
+  }

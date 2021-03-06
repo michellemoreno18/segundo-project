@@ -141,11 +141,6 @@ h2{
     padding-top: 10px;
     text-align: center;
 }
-#first-paragraph{
-    font-family: 'Oswald', sans-serif;
-    font-weight: 300;
-    color: white;
-}
 
 /* COLUMNS */
 * {
@@ -370,6 +365,11 @@ h3{
   }
 
   /* Events and Videos */
+  .events{
+    width: 600px;
+    margin-right: auto;
+    margin-left: auto;
+  }
   .videos{
     width: 600px;
     margin-right: auto;
@@ -380,4 +380,53 @@ h3{
     margin-right: auto;
     margin-left: auto;
     padding-bottom: 30px;
+  }
+
+  /* About Us */
+  .about{
+    width: 770px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  #first-paragraph{
+  font-family: 'Oswald', sans-serif;
+  font-weight: 300;
+  color: white;
+  }
+  
+  #second-paragraph{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
+    color: white;
+  }
+
+  #third-paragraph{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
+    color: white;
+  }
+
+  #fourth-paragraph{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
+    color: white;
+  }
+
+  #fifth-paragraph{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
+    color: white;
+  }
+
+  #sixth-paragraph{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
+    color: white;
+  }
+ 
+  .building{
+    width: 50px;
+    margin-right: auto;
+    margin-left: auto;
+    color: #ccc
   }

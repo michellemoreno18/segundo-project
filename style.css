@@ -74,6 +74,22 @@ body{
     line-height: 600px;
     text-shadow: 0px 0px 10px #ccc;
 }
+
+#header-about{
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('./img/about-hero.jpg');
+    -webkit-background-size: cover;
+    -moz-background-size:  cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-size: cover;
+    height: 600px;
+    color: #E7D7C5;
+    text-align: center;
+    font-size: 30px;
+    line-height: 600px;
+    text-shadow: 0px 0px 10px #ccc;
+}
+
 h1{
     font-family: 'Oswald', sans-serif;
 }
@@ -91,7 +107,7 @@ h1{
     text-decoration: #6B705C;
     background-color: #C5906D;
     display: block;
-    width: 159px;
+    width: 133px;
     padding-top: 10px;
     padding-bottom: 10px;
     text-align: center;

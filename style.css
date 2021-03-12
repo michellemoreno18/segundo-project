@@ -376,15 +376,21 @@ h3{
     margin-left: auto;
   }
   .videos{
-    width: 600px;
+    width: 555px;
     margin-right: auto;
     margin-left: auto;
   }
   .map{
+    width: 555px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-bottom: 50px;
+  }
+
+  #survey{
     width: 600px;
     margin-right: auto;
     margin-left: auto;
-    padding-bottom: 30px;
   }
 
   /* About Us */
@@ -518,13 +524,13 @@ h3{
   } 
 
   #solar{
-    width:750px;
+    width:780px;
     margin-right: auto;
     margin-left: auto;
   }
 
   #butterfly{
-    width:755px;
+    width: 780px;
     margin-right: auto;
     margin-left: auto;
   }
@@ -539,4 +545,10 @@ h3{
     font-family: 'Oswald', sans-serif;
     font-weight: 300;
     color: white;
+  }
+
+  .google{
+    width: 555px;
+    margin-right: auto;
+    margin-left: auto;
   }

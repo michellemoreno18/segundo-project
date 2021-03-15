@@ -553,3 +553,19 @@ h3{
     margin-right: auto;
     margin-left: auto;
   }
+
+  #flyer{
+    width: 550px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .flyer img{
+    margin-right: auto;
+    margin-left: auto;
+    padding-bottom: 45px;
+  }
+  .flyer{
+    width: 560px;
+    margin-right: auto;
+    margin-left: auto;
+  }
